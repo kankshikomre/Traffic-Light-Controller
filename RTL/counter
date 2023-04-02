@@ -10,7 +10,7 @@ module counter(clk, enable, dir, count);
         if(count < 10)
           begin
             dir <= 3'b001;
-            count <= count+1; // we won't be getting 1 at 0 because the count will also update at this time check the logic man 
+            count <= count+1; // we won't be getting 1 at 0 because the count will also update at this time 
           end
         else
           begin
